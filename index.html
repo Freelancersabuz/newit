@@ -1,164 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Project Add</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project name</title>
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- Theme style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/3.2.0/css/adminlte.min.css" />
+    <!-- iCheck for checkboxes and radio inputs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/icheck-bootstrap/3.0.1/icheck-bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.14/css/bootstrap-select.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.39.0/css/tempusdominus-bootstrap-4.min.css" />
+    <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'SolaimanLipi', Arial, sans-serif !important;
+        background-color: #eee;
+      }
 
-  <!-- Google Font: Source Sans Pro -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
-  <!-- Theme style -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/3.2.0/css/adminlte.min.css"/>
+      .warning-bar {
+        background-color: #eee;
+      }
 
-<!-- iCheck for checkboxes and radio inputs -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/icheck-bootstrap/3.0.1/icheck-bootstrap.min.css">
+      #branch {
+        border: 1px solid #ced4da;
+      }
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.14/css/bootstrap-select.css"/>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.39.0/css/tempusdominus-bootstrap-4.min.css"/>
-
-  <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
-
-    <style>body {    font-family: 'SolaimanLipi', Arial, sans-serif !important;}
-           #branch {   border: 1px solid #ced4da; }
-          .bootstrap-select > .dropdown-toggle {  
-              border: 1px solid #ced4da;
-            }         
-</style>
-
-</head>
-<body class="hold-transition">
-
-
-<div class="container-fluid">
-    <div class="container">
-    <section class="content-header">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1>Project Add</h1>
+      .bootstrap-select>.dropdown-toggle {
+        border: 1px solid #ced4da;
+      }
+    </style>
+  </head>
+  <body class="hold-transition">
+    <div class="container-fluid">
+      <div class="container">
+        <section class="content-header">
+          <div class="row mb-2">
+            <div class="col text-center">
+              <h1>তথ্যপ্রযুক্তি ও সোশ্যাল মিডিয়া</h1>
+              <h5>(এই ফরমটি শাখা তথ্যপ্রযুক্তি ও সোশ্যাল মিডিয়া সম্পাদক অথবা বিভাগের দায়িত্বপ্রাপ্ত ভাইয়েরা পূরণ করবেন।)</h5>
+            </div>          
           </div>
-          <div class="col-sm-6">
-            <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Project Add</li>
-            </ol>
-          </div>
-        </div>     
-    </section>
-
-    <!-- Main content -->
-    <section class="content mb-4">
-
-
-        <!-- row one -->
-
-      <div class="row justify-content-center">
-        <div class="col-9">
-          <div class="card card-primary">
-            <div class="card-header">
-              <h3 class="card-title">General</h3>
-
-              <div class="card-tools">
-                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                  <i class="fas fa-minus"></i>
-                </button>
-              </div>
-            </div>
-            <div class="card-body">
-
-              <div class="form-group">
-                <label for="name">নাম *</label>
-                <input type="text" id="name" name="name" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="institution">শিক্ষাপ্রতিষ্ঠান *</label>
-                <input type="text" id="institution" name="institution" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="class"> শ্রেণি/বর্ষ *</label>
-                <input type="text" id="class" name="class" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="subject">বিষয় *</label>
-                <input type="text" id="subject" name="subject" class="form-control">
-              </div>
-
-
+        </section>
+        <!-- Main content -->
+        <section class="content mb-4">
+          <form action="" >
+            <!-- row one -->
             <div class="row justify-content-center">
-                <div class="col-10">
+              <div class="col-9">
                 <div class="card card-primary">
-                    <div class="card-header ">
-                      <h3 class="card-title">রেজাল্ট: (অনার্স/মাস্টার্সের ক্ষেত্রে সর্বশেষ প্রকাশিত সেমিস্টার/বর্ষের রেজাল্ট লিখুন)</h3>                     
+                  <div class="card-header">
+                    <h3 class="card-title">General</h3>
+                    <div class="card-tools">
+                      <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                        <i class="fas fa-minus"></i>
+                      </button>
                     </div>
-
-                    <div class="card-body">                
-                              <div class="form-group">
-                                <label for="name">এসএসসি *</label>
-                                <input type="text" id="name" name="name" class="form-control">
-                              </div>
-                              <div class="form-group">
-                                <label for="institution">এইচএসসি *</label>
-                                <input type="text" id="institution" name="institution" class="form-control">
-                              </div>
-                              <div class="form-group">
-                                <label for="class"> অনার্স *</label>
-                                <input type="text" id="class" name="class" class="form-control">
-                              </div>
-                              <div class="form-group">
-                                <label for="subject">মাস্টার্স *</label>
-                                <input type="text" id="subject" name="subject" class="form-control">
-                              </div>
-
-
-                         </div>
-                              
+                  </div>
+                  <div class="card-body"> 
+                   <div class="form-group">
+                      <label for="dateToday">আজকের তারিখ*</label>
+                      <input type="date" class="form-control" id="dateToday" name="dateToday" required>
                     </div>
+                    <div class="form-group">
+                      <label for="name">নাম *</label>
+                      <input type="text" id="name" name="name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="institution">শিক্ষাপ্রতিষ্ঠান *</label>
+                      <input type="text" id="institution" name="institution" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="class"> শ্রেণি/বর্ষ *</label>
+                      <input type="text" id="class" name="class" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="subject">বিষয় *</label>
+                      <input type="text" id="subject" name="subject" class="form-control">
+                    </div>
+                    <div class="row justify-content-center">
+                      <div class="col-10">
+                        <div class="card card-primary">
+                          <div class="card-header ">
+                            <h3 class="card-title">রেজাল্ট: (অনার্স/মাস্টার্সের ক্ষেত্রে সর্বশেষ প্রকাশিত সেমিস্টার/বর্ষের রেজাল্ট লিখুন)</h3>
+                          </div>
+                          <div class="card-body">
+                            <div class="form-group">
+                              <label for="name">এসএসসি *</label>
+                              <input type="text" id="name" name="name" class="form-control">
+                            </div>
+                            <div class="form-group">
+                              <label for="institution">এইচএসসি *</label>
+                              <input type="text" id="institution" name="institution" class="form-control">
+                            </div>
+                            <div class="form-group">
+                              <label for="class"> অনার্স *</label>
+                              <input type="text" id="class" name="class" class="form-control">
+                            </div>
+                            <div class="form-group">
+                              <label for="subject">মাস্টার্স *</label>
+                              <input type="text" id="subject" name="subject" class="form-control">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="careerplan"> ক্যারিয়ার পরিকল্পনা *</label>
+                      <input type="text" id="careerplan" name="careerplan" class="form-control">
+                    </div>
+                  </div>
+                  <!-- /.card-body -->
                 </div>
-            </div>
-
-
-
-              <div class="form-group">
-                <label for="careerplan"> ক্যারিয়ার পরিকল্পনা *</label>
-                <input type="text" id="careerplan" name="careerplan" class="form-control">
-              </div>
-              
-            </div>
-            <!-- /.card-body -->
-          </div>
-          <!-- /.card -->
-        </div>
-     
-      </div>
-      <!-- end row one -->
-
-
-
-        <!-- সাংগঠনিক বিবরণ  -->
-
-      <div class="row justify-content-center">
-        <div class="col-9">
-          <div class="card card-primary">
-            <div class="card-header">
-              <h3 class="card-title">সাংগঠনিক বিবরণ</h3>
-
-              <div class="card-tools">
-                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                  <i class="fas fa-minus"></i>
-                </button>
+                <!-- /.card -->
               </div>
             </div>
-            <div class="card-body">
-
-                <!-- শাখা সমূহ  -->
-
-                  <div class="form-group">
-                    <label for="branch" class="control-label">শাখার নাম *</label>
-                
-                     <select id="branch" title="Select" name="branch"  onclick="branchFn1()" required class="selectpicker show-tick form-control" data-live-search="true">
-                    
+            <!-- end row one -->
+            <!-- সাংগঠনিক বিবরণ  -->
+            <div class="row justify-content-center">
+              <div class="col-9">
+                <div class="card card-primary">
+                  <div class="card-header">
+                    <h3 class="card-title">সাংগঠনিক বিবরণ</h3>
+                    <div class="card-tools">
+                      <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <!-- শাখা সমূহ  -->
+                    <div class="form-group">
+                      <label for="branch" class="control-label">শাখার নাম *</label>
+                      <select id="branch" title="Select" name="branch" onclick="branch()" required class="selectpicker show-tick form-control" data-live-search="true">
                         <option>আইআইইউসি</option>
                         <option>আইডিয়াল ইন্সটিটিউট</option>
                         <option>ইংলিশ মিডিয়াম</option>
@@ -300,68 +277,54 @@
                         <option>সুনামগঞ্জ জেলা</option>
                         <option>হবিগঞ্জ জেলা</option>
                         <option>শিশুকল্যাণ</option>
-                      </select>                
-                  </div>
-                    
-
-                  <div class="form-group">
-                    <label for="designation" class="control-label"> সাংগঠনিক মান * </label>
-                     <select id="designation" title="Select" name="designation"  onclick="desigNation()" required class="selectpicker show-tick form-control" data-live-search="false">
-                            
-                             <option>সদস্য</option>
-                              <option>সদস্যপ্রার্থী</option>
-                              <option>সাথী</option>
-                      </select>                
-                  </div>
-
-                    <script>
-                       function desigNation() {
-                            var designation = document.getElementById('designation').value;
-                            google.script.run       
-                            .processForm(designation) }
-                    </script>
-                             
-                  <div class="form-group">
-                    <label for="respons">বর্তমান সকল দায়িত্ব *</label>
-                    <input type="text" id="respons" name="respons" class="form-control">
-                  </div>
-                   <!-- Date -->
+                      </select>
+                    </div>
                     <div class="form-group">
-                        <label for="dateToday">সদস্য/সাথী হওয়ার তারিখ</label>
-                        <input type="date" class="form-control" id="dateToday" name="dateToday" required autofocus>
-                    </div>         
-                 </div>
-                <!-- /.card-body -->
+                      <label for="designation" class="control-label"> সাংগঠনিক মান * </label>
+                      <select id="designation" title="Select" name="designation" onclick="desigNation()" required class="selectpicker show-tick form-control" data-live-search="false">
+                        <option>সদস্য</option>
+                        <option>সদস্যপ্রার্থী</option>
+                        <option>সাথী</option>
+                      </select>
+                    </div>
+                    <script>
+                      function desigNation() {
+                        var designation = document.getElementById('designation').value;
+                        google.script.run.processForm(designation)
+                      }
+                    </script>
+                    <div class="form-group">
+                      <label for="respons">বর্তমান সকল দায়িত্ব *</label>
+                      <input type="text" id="respons" name="respons" class="form-control">
+                    </div>
+                    <!-- Date -->
+                    <div class="form-group">
+                      <label for="dateToday">সদস্য/সাথী হওয়ার তারিখ</label>
+                      <input type="date" class="form-control" id="dateToday" name="dateToday" required autofocus>
+                    </div>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
               </div>
-              <!-- /.card -->
             </div>
-         
-          </div>
-          <!-- end row ২ -->
-
-
-
-        <!-- ক্যারিয়ার ক্ষেত্র বিবরণ  -->
-
-      <div class="row justify-content-center">
-        <div class="col-9">
-          <div class="card card-primary">
-            <div class="card-header">
-              <h3 class="card-title"> ক্যারিয়ার ক্ষেত্র </h3>
-
-              <div class="card-tools">
-                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                  <i class="fas fa-minus"></i>
-                </button>
-              </div>
-            </div>
-
-            <div class="card-body">
-                  <div class="form-group">
-                    <label for="carrerArea" class="control-label">শাখা টিমের কোন সেক্টরে কাজ করবেন? *</label>
-                
-                     <select id="carrerArea" title="Select" name="carrerArea"  onclick="branchFn1()" required class="selectpicker show-tick form-control" data-live-search="false">
-                    
+            <!-- end row ২ -->
+            <!-- ক্যারিয়ার ক্ষেত্র বিবরণ  -->
+            <div class="row justify-content-center">
+              <div class="col-9">
+                <div class="card card-primary">
+                  <div class="card-header">
+                    <h3 class="card-title"> ক্যারিয়ার ক্ষেত্র </h3>
+                    <div class="card-tools">
+                      <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="form-group">
+                      <label for="carrerArea" class="control-label">শাখা টিমের কোন সেক্টরে কাজ করবেন? *</label>
+                      <select id="carrerArea" title="Select" name="carrerArea" onclick="shakhaTeam()" required class="selectpicker show-tick form-control" data-live-search="false">
                         <option>গ্রাফিক ডিজাইন</option>
                         <option>ভিডিও এডিটিং</option>
                         <option>ওয়েব ডেভেলপমেন্ট</option>
@@ -370,940 +333,603 @@
                         <option>ফেসবুক ক্যাম্পেইন</option>
                         <option>টুইটার ক্যাম্পেইন</option>
                         <option>টেকনিক্যাল এক্সপার্ট</option>
-                      </select>                
+                      </select>
+                    </div>
                   </div>
-            </div>
-            <!-- /.card-body -->
-          </div>
-          <!-- /.card -->
-        </div>     
-      </div>
-         <!-- ./ক্যারিয়ার ক্ষেত্র বিবরণ  -->
-
-
-
-        <!-- ফেসবুক বিবরণ  -->
-
-      <div class="row justify-content-center">
-        <div class="col-9">
-          <div class="card card-primary">
-            <div class="card-header">
-              <h3 class="card-title"> ফেসবুক </h3>
-
-              <div class="card-tools">
-                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                  <i class="fas fa-minus"></i>
-                </button>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
               </div>
             </div>
-
-            <div class="card-body">
-                  <label>ফেসবুকে লেখালিখি করেন কি?<sup>*</sup>:</label>
-                     <!-- radio -->
+            <!-- ./ক্যারিয়ার ক্ষেত্র বিবরণ  -->
+            <!-- ফেসবুক বিবরণ  -->
+            <div class="row justify-content-center">
+              <div class="col-9">
+                <div class="card card-primary">
+                  <div class="card-header">
+                    <h3 class="card-title"> ফেসবুক </h3>
+                    <div class="card-tools">
+                      <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <label>ফেসবুকে লেখালিখি করেন কি? <sup>*</sup>: </label>
+                    <!-- radio -->
                     <div class="form-group clearfix d-inline">
-                      <div class="icheck-primary d-inline mr-2" >
+                      <div class="icheck-primary d-inline mr-2">
                         <input type="radio" id="FbYes" name="fb" onclick="check()">
                         <label for="FbYes">হ্যাঁ </label>
                       </div>
                       <div class="icheck-primary d-inline" onclick="uncheck()">
                         <input type="radio" id="FbNo" name="fb">
                         <label for="FbNo"> না </label>
-                      </div>                  
-                    </div>
-                     <div class="form-group">
-                        <label for="fblink">আইডির লিংক </label>
-                        <input type="text" id="fblink" name="fblink" class="form-control">                      
                       </div>
-
-                        <script>  
-                             function check() {
-                                document.getElementById("fblink").required  = true;
-                              }
-                              function uncheck() {
-                                document.getElementById("fblink").required  = false;
-                              }
-                        </script>
                     </div>
+                    <div class="form-group">
+                      <label for="fblink">আইডির লিংক </label>
+                      <input type="text" id="fblink" name="fblink" class="form-control">
+                    </div>
+                    <script>
+                      function check() {
+                        document.getElementById("fblink").required = true;
+                      }
+
+                      function uncheck() {
+                        document.getElementById("fblink").required = false;
+                      }
+                    </script>
+                  </div>
                 </div>
-            </div>
-            <!-- /.card-body -->
-          </div>
-          <!-- /.card -->   
-         <!-- ./ফেসবুক বিবরণ  -->
-
-
-
-        <!-- টুইটার বিবরণ  -->
-
-      <div class="row justify-content-center">
-        <div class="col-9">
-          <div class="card card-primary">
-            <div class="card-header">
-              <h3 class="card-title"> টুইটার </h3>
-
-              <div class="card-tools">
-                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                  <i class="fas fa-minus"></i>
-                </button>
               </div>
+              <!-- /.card-body -->
             </div>
-
-            <div class="card-body">
-                  <label>টুইটার একাউন্ট আছে কি? *<sup>*</sup>:</label>
-                     <!-- radio -->
+            <!-- /.card -->
+            <!-- ./ফেসবুক বিবরণ  -->
+            <!-- টুইটার বিবরণ  -->
+            <div class="row justify-content-center">
+              <div class="col-9">
+                <div class="card card-primary">
+                  <div class="card-header">
+                    <h3 class="card-title"> টুইটার </h3>
+                    <div class="card-tools">
+                      <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <label>টুইটার একাউন্ট আছে কি? * <sup>*</sup>: </label>
+                    <!-- radio -->
                     <div class="form-group clearfix d-inline">
-                      <div class="icheck-primary d-inline mr-2" >
-                        <input type="radio" id="TwitterYes" name="twitter" onclick="twitcheck()">
-                        <label for="TwitterYes">হ্যাঁ </label>
+                      <div class="icheck-primary d-inline mr-2">
+                        <input type="radio" name="twitter" id="Yes" value="Yes" onclick="check1()" required>
+                        <label for="Yes">হ্যাঁ</label>
                       </div>
                       <div class="icheck-primary d-inline" onclick="tWiTuncheck()">
-                        <input type="radio" id="TwitterNo" name="twitter">
-                        <label for="TwitterNo"> না </label>
-                      </div>                  
-                    </div>
-                     <div class="form-group">
-                        <label for="fblink">ইউজার নেইম/ইমেইল </label>
-                        <input type="text" id="twitter_user" name="fblink" class="form-control">                      
+                        <input type="radio" name="twitter" id="No" value="No" onclick="uncheck1()">
+                        <label for="No">না</label>
                       </div>
-
-                        <script>  
-                             function twitcheck() {
-                               document.getElementById("twitter_user").required  = true;
-                              }
-                              function tWiTuncheck() {
-                                    document.getElementById("twitter_user").required  = false;
-                                }
-
-                        </script>
                     </div>
+                    <div class="form-group">
+                      <label for="fblink">ইউজার নেইম/ইমেইল </label>
+                      <input type="text" id="twitter_user" name="fblink" class="form-control">
+                    </div>
+                    <script>
+                      function check1() {
+                        document.getElementById("twitter_user").required = true;
+                      }
+
+                      function uncheck1() {
+                        document.getElementById("twitter_user").required = false;
+                      }
+                    </script>
+                  </div>
                 </div>
-            </div>
-            <!-- /.card-body -->
-          </div>
-          <!-- /.card -->   
-         <!-- ./টুইটার বিবরণ  -->
-
-
-
-        <!-- ব্লগ বিবরণ  -->
-
-      <div class="row justify-content-center">
-        <div class="col-9">
-          <div class="card card-primary">
-            <div class="card-header">
-              <h3 class="card-title"> ব্লগ </h3>
-
-              <div class="card-tools">
-                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                  <i class="fas fa-minus"></i>
-                </button>
               </div>
+              <!-- /.card-body -->
             </div>
-
-            <div class="card-body">
-                  <label>ব্লগে লেখালেখি করেন কি? *<sup>*</sup>:</label>
-                     <!-- radio -->
+            <!-- /.card -->
+            <!-- ./টুইটার বিবরণ  -->
+            <!-- ব্লগ বিবরণ  -->
+            <div class="row justify-content-center">
+              <div class="col-9">
+                <div class="card card-primary">
+                  <div class="card-header">
+                    <h3 class="card-title"> ব্লগ </h3>
+                    <div class="card-tools">
+                      <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <label>ব্লগে লেখালেখি করেন কি? * <sup>*</sup>: </label>
+                    <!-- radio -->
                     <div class="form-group clearfix d-inline">
-                      <div class="icheck-primary d-inline mr-2" >
-                        <input type="radio" id="blogYes" name="blog" onclick="blogcheck()">
-                        <label for="blogYes">হ্যাঁ </label>
+                      <div class="icheck-primary d-inline mr-2">
+                        <input type="radio" id="yes" value="Yes" name="blog" onclick="blogcheck()">
+                        <label for="yes">হ্যাঁ </label>
                       </div>
                       <div class="icheck-primary d-inline" onclick="bloguncheck()">
-                        <input type="radio" id="blogNo" name="blog">
+                        <input type="radio" id="No" value="No" name="blog">
                         <label for="blogNo"> না </label>
-                      </div>                  
-                    </div>
-
-                     <div class="form-group">
-                        <label for="blog_name">ব্লগের নাম (এক/একাধিক): </label>
-                        <input type="text" id="blog_name" name="blog_name" class="form-control">                      
                       </div>
-
-                     <div class="form-group">
-                        <label for="blog_id">আইডির নাম (এক/একাধিক): </label>
-                        <input type="text" id="blog_id" name="blog_id" class="form-control">                      
                     </div>
-                    <script>  
-                             function blogcheck() {
-                              document.getElementById("blog_name").required  = true;
-                              document.getElementById("blog_id").required  = true;
-                              }
-                              function bloguncheck() {
-                              document.getElementById("blog_name").required  = false;
-                               document.getElementById("blog_id").required  = false;
-                                    }
+                    <div class="form-group">
+                      <label for="blog_name">ব্লগের নাম (এক/একাধিক): </label>
+                      <input type="text" id="blog_name" name="blog_name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="blog_id">আইডির নাম (এক/একাধিক): </label>
+                      <input type="text" id="blog_id" name="blog_id" class="form-control">
+                    </div>
+                    <script>
+                      function blogcheck() {
+                        document.getElementById("blog_name").required = true;
+                        document.getElementById("blog_id").required = true;
+                      }
+
+                      function bloguncheck() {
+                        document.getElementById("blog_name").required = false;
+                        document.getElementById("blog_id").required = false;
+                      }
                     </script>
-                    </div>
+                  </div>
                 </div>
-            </div>
-            <!-- /.card-body -->
-          </div>
-          <!-- /.card -->   
-         <!-- ./ব্লগ বিবরণ  -->
-
-
-        <!-- ইউটিউব বিবরণ  -->
-
-      <div class="row justify-content-center">
-        <div class="col-9">
-          <div class="card card-primary">
-            <div class="card-header">
-              <h3 class="card-title"> ইউটিউব </h3>
-
-              <div class="card-tools">
-                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                  <i class="fas fa-minus"></i>
-                </button>
               </div>
+              <!-- /.card-body -->
             </div>
-
-            <div class="card-body">
-                  <label>ইউটিউব চ্যানেল আছে কি? *<sup>*</sup>:</label>
-                     <!-- radio -->
+            <!-- /.card -->
+            <!-- ./ব্লগ বিবরণ  -->
+            <!-- ইউটিউব বিবরণ  -->
+            <div class="row justify-content-center">
+              <div class="col-9">
+                <div class="card card-primary">
+                  <div class="card-header">
+                    <h3 class="card-title"> ইউটিউব </h3>
+                    <div class="card-tools">
+                      <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <label>ইউটিউব চ্যানেল আছে কি? * <sup>*</sup>: </label>
+                    <!-- radio -->
                     <div class="form-group clearfix d-inline">
-                      <div class="icheck-primary d-inline mr-2" >
-                        <input type="radio" id="youtubeYes" name="youtube" onclick="yoububeCheck()">
+                      <div class="icheck-primary d-inline mr-2">
+                        <input type="radio" id="youtubeYes" value="Yes" name="youtube" onclick="yoububeCheck()">
                         <label for="youtubeYes">হ্যাঁ </label>
                       </div>
                       <div class="icheck-primary d-inline" onclick="youtubeCheck()">
-                        <input type="radio" id="youtubeNo" name="youtube">
+                        <input type="radio" id="youtubeNo" value="No" name="youtube">
                         <label for="youtubeNo"> না </label>
-                      </div>                  
-                    </div>
-                     <div class="form-group">
-                        <label for="channel_link">ইউজার নেইম/ইমেইল </label>
-                        <input type="text" id="channel_link" name="channel_link" class="form-control">
                       </div>
-
                     </div>
+                    <div class="form-group">
+                      <label for="channel_link">ইউজার নেইম/ইমেইল </label>
+                      <input type="text" id="channel_link" name="channel_link" class="form-control">
+                    </div>
+                  </div>
                 </div>
-            </div>
-            <!-- /.card-body -->
-          </div>
-          <!-- /.card -->   
-         <!-- ./ইউটিউব বিবরণ  -->
-
-
-        <!-- গ্রাফিক ডিজাইন বিবরণ  -->
-
-      <div class="row justify-content-center">
-        <div class="col-9">
-          <div class="card card-primary">
-            <div class="card-header">
-              <h3 class="card-title"> গ্রাফিক ডিজাইন </h3>
-
-              <div class="card-tools">
-                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                  <i class="fas fa-minus"></i>
-                </button>
               </div>
+              <!-- /.card-body -->
             </div>
-
-            <div class="card-body">
-                     <label>গ্রাফিক ডিজাইনে আপনার দক্ষতা কেমন?</label>
-                     
-                     <!-- radio -->
+            <!-- /.card -->
+            <!-- ./ইউটিউব বিবরণ  -->
+            <!-- গ্রাফিক ডিজাইন বিবরণ  -->
+            <div class="row justify-content-center">
+              <div class="col-9">
+                <div class="card card-primary">
+                  <div class="card-header">
+                    <h3 class="card-title"> গ্রাফিক ডিজাইন </h3>
+                    <div class="card-tools">
+                      <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <label>গ্রাফিক ডিজাইনে আপনার দক্ষতা কেমন?</label>
+                    <!-- radio -->
                     <div class="form-group clearfix d-inline">
-                      
-                          <div class="icheck-primary d-inline mr-2" >
-                            <input type="radio" name="graphic" id="GraphNo" value="GraphNo" onclick="graphuncheckNo()" required  >
-                            <label for="GraphNo">নেই</label>
-                          </div>
-
-                          <div class="icheck-primary d-inline mr-2" >
-                             <input type="radio" name="graphic" id="GBasic" value="GBasic" onclick="grphcheck()">
-                             <label for="GBasic">বেসিক</label>
-                          </div>
-
-                          <div class="icheck-primary d-inline mr-2" >
-                            <input type="radio" name="graphic" id="GMedium" value="GMedium" onclick="grphcheck()">
-                            <label for="GMedium">মধ্যম</label>
-                          </div>
-
-                          <div class="icheck-primary d-inline mr-2" >
-                            <input type="radio" name="graphic" id="Gadvance" value="Gadvance" onclick="grphcheck()">
-                            <label for="Gadvance">অ্যাডভান্সড</label>
-                          </div>
-
-                         
-                     <div class="form-group">
+                      <div class="icheck-primary d-inline mr-2">
+                        <input type="radio" name="graphic" id="GraphNo" value="No" onclick="graphuncheckNo()" required>
+                        <label for="GraphNo">নেই</label>
+                      </div>
+                      <div class="icheck-primary d-inline mr-2">
+                        <input type="radio" name="graphic" id="GBasic" value="Basic" onclick="grphcheck()">
+                        <label for="GBasic">বেসিক</label>
+                      </div>
+                      <div class="icheck-primary d-inline mr-2">
+                        <input type="radio" name="graphic" id="GMedium" value="Medium" onclick="grphcheck()">
+                        <label for="GMedium">মধ্যম</label>
+                      </div>
+                      <div class="icheck-primary d-inline mr-2">
+                        <input type="radio" name="graphic" id="Gadvance" value="advance" onclick="grphcheck()">
+                        <label for="Gadvance">অ্যাডভান্সড</label>
+                      </div>
+                      <div class="form-group">
                         <label for="Graphic_soft">সফটওয়্যারের নাম:</label>
                         <input type="text" id="Graphic_soft" name="Graphic_soft" class="form-control">
                       </div>
+                      <script>
+                        function grphcheck() {
+                          document.getElementById("Graphic_soft").required = true;
+                        }
 
-                        <script>  
-                                 function grphcheck() {
-                                  document.getElementById("Graphic_soft").required  = true;     
-                                  }
-                                  function graphuncheckNo() {
-                                  document.getElementById("Graphic_soft").required  = false;
-                                        }
-                        </script>
-
+                        function graphuncheckNo() {
+                          document.getElementById("Graphic_soft").required = false;
+                        }
+                      </script>
                     </div>
-                    </div>
+                  </div>
                 </div>
-            </div>
-            <!-- /.card-body -->
-          </div>
-          <!-- /.card -->   
-         <!-- ./গ্রাফিক ডিজাইন বিবরণ  -->
-
-
-        <!-- ভিডিও এডিটিং  বিবরণ  -->
-
-      <div class="row justify-content-center">
-        <div class="col-9">
-          <div class="card card-primary">
-            <div class="card-header">
-              <h3 class="card-title"> ভিডিও এডিটিং </h3>
-
-              <div class="card-tools">
-                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                  <i class="fas fa-minus"></i>
-                </button>
               </div>
+              <!-- /.card-body -->
             </div>
-
-            <div class="card-body">
-                     <label>ভিডিও এডিটিং এ আপনার দক্ষতা কেমন?</label>
-                     
-                     <!-- radio -->
+            <!-- /.card -->
+            <!-- ./গ্রাফিক ডিজাইন বিবরণ  -->
+            <!-- ভিডিও এডিটিং  বিবরণ  -->
+            <div class="row justify-content-center">
+              <div class="col-9">
+                <div class="card card-primary">
+                  <div class="card-header">
+                    <h3 class="card-title"> ভিডিও এডিটিং </h3>
+                    <div class="card-tools">
+                      <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <label>ভিডিও এডিটিং এ আপনার দক্ষতা কেমন?</label>
+                    <!-- radio -->
                     <div class="form-group clearfix d-inline">
-                      
-                          <div class="icheck-primary d-inline mr-2" >
-                            <input type="radio" name="video" id="videoNo" value="videoNo" onclick="videocheckNo()" required  >
-                            <label for="videoNo">নেই</label>
-                          </div>
-
-                          <div class="icheck-primary d-inline mr-2" >
-                             <input type="radio" name="video" id="VBasic" value="VBasic" onclick="videocheck()">
-                             <label for="VBasic">বেসিক</label>
-                          </div>
-
-                          <div class="icheck-primary d-inline mr-2" >
-                            <input type="radio" name="video" id="VMedium" value="VMedium" onclick="videocheck()">
-                            <label for="VMedium">মধ্যম</label>
-                          </div>
-
-                          <div class="icheck-primary d-inline mr-2" >
-                            <input type="radio" name="video" id="Vadvance" value="Vadvance" onclick="videocheck()">
-                            <label for="Vadvance">অ্যাডভান্সড</label>
-                          </div>
-
-                         
-                     <div class="form-group">
+                      <div class="icheck-primary d-inline mr-2">
+                        <input type="radio" name="video" id="videoNo" value="No" onclick="videocheckNo()" required>
+                        <label for="videoNo">নেই</label>
+                      </div>
+                      <div class="icheck-primary d-inline mr-2">
+                        <input type="radio" name="video" id="VBasic" value="Basic" onclick="videocheck()">
+                        <label for="Basic">বেসিক</label>
+                      </div>
+                      <div class="icheck-primary d-inline mr-2">
+                        <input type="radio" name="video" id="Medium" value="Medium" onclick="videocheck()">
+                        <label for="VMedium">মধ্যম</label>
+                      </div>
+                      <div class="icheck-primary d-inline mr-2">
+                        <input type="radio" name="video" id="advance" value="advance" onclick="videocheck()">
+                        <label for="advance">অ্যাডভান্সড</label>
+                      </div>
+                      <div class="form-group">
                         <label for="video_soft">সফটওয়্যারের নাম:</label>
                         <input type="text" id="video_soft" name="video_soft" class="form-control">
                       </div>
+                      <script>
+                        function videocheckNo() {
+                          document.getElementById("video_soft").required = true;
+                        }
 
-                        <script>  
-                                 function videocheckNo() {
-                                  document.getElementById("video_soft").required  = true;     
-                                  }
-                                  function videocheck() {
-                                  document.getElementById("video_soft").required  = false;
-                                        }
-                        </script>
-
+                        function videocheck() {
+                          document.getElementById("video_soft").required = false;
+                        }
+                      </script>
                     </div>
-                    </div>
+                  </div>
                 </div>
-            </div>
-            <!-- /.card-body -->
-          </div>
-          <!-- /.card -->   
-         <!-- ./ভিডিও এডিটিং বিবরণ  -->
-
-
-
-        <!-- ওয়েব ডেভেলপমেন্ট  বিবরণ  -->
-
-      <div class="row justify-content-center">
-        <div class="col-9">
-          <div class="card card-primary">
-            <div class="card-header">
-              <h3 class="card-title"> ওয়েব ডেভেলপমেন্ট </h3>
-
-              <div class="card-tools">
-                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                  <i class="fas fa-minus"></i>
-                </button>
               </div>
+              <!-- /.card-body -->
             </div>
-
-            <div class="card-body">
-                     <label>ওয়েব ডেভেলপমেন্ট এ আপনার দক্ষতা কেমন?</label>
-                     
-                     <!-- radio -->
+            <!-- /.card -->
+            <!-- ./ভিডিও এডিটিং বিবরণ  -->
+            <!-- ওয়েব ডেভেলপমেন্ট  বিবরণ  -->
+            <div class="row justify-content-center">
+              <div class="col-9">
+                <div class="card card-primary">
+                  <div class="card-header">
+                    <h3 class="card-title"> ওয়েব ডেভেলপমেন্ট </h3>
+                    <div class="card-tools">
+                      <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <label>ওয়েব ডেভেলপমেন্ট এ আপনার দক্ষতা কেমন?</label>
+                    <!-- radio -->
                     <div class="form-group clearfix d-inline">
-                      
-                          <div class="icheck-primary d-inline mr-2" >
-                            <input type="radio" name="web" id="webNo" value="webNo" onclick="webCheckNo()" required  >
-                            <label for="webNo">নেই</label>
-                          </div>
-
-                          <div class="icheck-primary d-inline mr-2" >
-                             <input type="radio" name="web" id="webBasic" value="webBasic" onclick="webCheck()">
-                             <label for="webBasic">বেসিক</label>
-                          </div>
-
-                          <div class="icheck-primary d-inline mr-2" >
-                            <input type="radio" name="web" id="WebMedium" value="WebMedium" onclick="webCheck()">
-                            <label for="WebMedium">মধ্যম</label>
-                          </div>
-
-                          <div class="icheck-primary d-inline mr-2" >
-                            <input type="radio" name="web" id="Webadvance" value="Webadvance" onclick="webCheck()">
-                            <label for="Webadvance">অ্যাডভান্সড</label>
-                          </div>
-
-                         
-                     <div class="form-group">
+                      <div class="icheck-primary d-inline mr-2">
+                        <input type="radio" name="web" id="webNo" value="No" onclick="webCheckNo()" required>
+                        <label for="webNo">নেই</label>
+                      </div>
+                      <div class="icheck-primary d-inline mr-2">
+                        <input type="radio" name="web" id="webBasic" value="Basic" onclick="webCheck()">
+                        <label for="Basic">বেসিক</label>
+                      </div>
+                      <div class="icheck-primary d-inline mr-2">
+                        <input type="radio" name="" id="WebMedium" value="Medium" onclick="webCheck()">
+                        <label for="WebMedium">মধ্যম</label>
+                      </div>
+                      <div class="icheck-primary d-inline mr-2">
+                        <input type="radio" name="" id="Webadvance" value="advance" onclick="webCheck()">
+                        <label for="Webadvance">অ্যাডভান্সড</label>
+                      </div>
+                      <div class="form-group">
                         <label for="web_lang">কোন কোন ল্যাঙ্গুয়েজ</label>
                         <input type="text" id="web_lang" name="web_lang" class="form-control">
                       </div>
+                      <script>
+                        function webCheckNo() {
+                          document.getElementById("web_lang").required = true;
+                        }
 
-                        <script>  
-                                 function webCheckNo() {
-                                  document.getElementById("web_lang").required  = true;     
-                                  }
-                                  function webCheck() {
-                                  document.getElementById("web_lang").required  = false;
-                                        }
-                        </script>
-
+                        function webCheck() {
+                          document.getElementById("web_lang").required = false;
+                        }
+                      </script>
                     </div>
-                    </div>
+                  </div>
                 </div>
-            </div>
-            <!-- /.card-body -->
-          </div>
-          <!-- /.card -->   
-         <!-- ./ওয়েব ডেভেলপমেন্ট বিবরণ  -->
-
-
-
-
-        <!-- অ্যাপ ডেভেলপমেন্ট  বিবরণ  -->
-
-      <div class="row justify-content-center">
-        <div class="col-9">
-          <div class="card card-primary">
-            <div class="card-header">
-              <h3 class="card-title"> অ্যাপ ডেভেলপমেন্ট </h3>
-
-              <div class="card-tools">
-                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                  <i class="fas fa-minus"></i>
-                </button>
               </div>
+              <!-- /.card-body -->
             </div>
-
-            <div class="card-body">
-                     <label>অ্যাপ ডেভেলপমেন্ট এ আপনার দক্ষতা কেমন?</label>
-                     
-                     <!-- radio -->
+            <!-- /.card -->
+            <!-- ./ওয়েব ডেভেলপমেন্ট বিবরণ  -->
+            <!-- অ্যাপ ডেভেলপমেন্ট  বিবরণ  -->
+            <div class="row justify-content-center">
+              <div class="col-9">
+                <div class="card card-primary">
+                  <div class="card-header">
+                    <h3 class="card-title"> অ্যাপ ডেভেলপমেন্ট </h3>
+                    <div class="card-tools">
+                      <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <label>অ্যাপ ডেভেলপমেন্ট এ আপনার দক্ষতা কেমন?</label>
+                    <!-- radio -->
                     <div class="form-group clearfix d-inline">
-                      
-                          <div class="icheck-primary d-inline mr-2" >
-                            <input type="radio" name="app" id="appNo" value="appNo" onclick="webCheckNo()" required  >
-                            <label for="appNo">নেই</label>
-                          </div>
-
-                          <div class="icheck-primary d-inline mr-2" >
-                             <input type="radio" name="app" id="appBasic" value="appBasic" onclick="appCheck()">
-                             <label for="appBasic">বেসিক</label>
-                          </div>
-
-                          <div class="icheck-primary d-inline mr-2" >
-                            <input type="radio" name="app" id="appMedium" value="appMedium" onclick="appCheck()">
-                            <label for="appMedium">মধ্যম</label>
-                          </div>
-
-                          <div class="icheck-primary d-inline mr-2" >
-                            <input type="radio" name="app" id="appadvance" value="appadvance" onclick="appCheck()">
-                            <label for="appadvance">অ্যাডভান্সড</label>
-                          </div>
-
-                         
-                     <div class="form-group">
+                      <div class="icheck-primary d-inline mr-2">
+                        <input type="radio" name="app" id="appNo" value="No" onclick="webCheckNo()" required>
+                        <label for="appNo">নেই</label>
+                      </div>
+                      <div class="icheck-primary d-inline mr-2">
+                        <input type="radio" name="app" id="appBasic" value="Basic" onclick="appCheck()">
+                        <label for="appBasic">বেসিক</label>
+                      </div>
+                      <div class="icheck-primary d-inline mr-2">
+                        <input type="radio" name="app" id="appMedium" value="Medium" onclick="appCheck()">
+                        <label for="appMedium">মধ্যম</label>
+                      </div>
+                      <div class="icheck-primary d-inline mr-2">
+                        <input type="radio" name="app" id="appadvance" value="advance" onclick="appCheck()">
+                        <label for="appadvance">অ্যাডভান্সড</label>
+                      </div>
+                      <div class="form-group">
                         <label for="app_lang">কোন কোন ল্যাঙ্গুয়েজ</label>
                         <input type="text" id="app_lang" name="app_lang" class="form-control">
                       </div>
+                      <script>
+                        function webCheckNo() {
+                          document.getElementById("app_lang").required = true;
+                        }
 
-                        <script>  
-                                 function webCheckNo() {
-                                  document.getElementById("app_lang").required  = true;     
-                                  }
-                                  function appCheck() {
-                                  document.getElementById("app_lang").required  = false;
-                                        }
-                        </script>
-
+                        function appCheck() {
+                          document.getElementById("app_lang").required = false;
+                        }
+                      </script>
                     </div>
-                    </div>
+                  </div>
                 </div>
-            </div>
-            <!-- /.card-body -->
-          </div>
-          <!-- /.card -->   
-         <!-- ./অ্যাপ ডেভেলপমেন্ট বিবরণ  -->
-
-
-
-
-        <!-- হার্ডওয়্যার স্কিল  বিবরণ  -->
-
-      <div class="row justify-content-center">
-        <div class="col-9">
-          <div class="card card-primary">
-            <div class="card-header">
-              <h3 class="card-title"> হার্ডওয়্যার স্কিল </h3>
-
-              <div class="card-tools">
-                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                  <i class="fas fa-minus"></i>
-                </button>
               </div>
+              <!-- /.card-body -->
             </div>
-
-            <div class="card-body">
-                     <label>হার্ডওয়্যার স্কিল এ আপনার দক্ষতা কেমন?</label>
-                     
-                     <!-- radio -->
+            <!-- /.card -->
+            <!-- ./অ্যাপ ডেভেলপমেন্ট বিবরণ  -->
+            <!-- হার্ডওয়্যার স্কিল  বিবরণ  -->
+            <div class="row justify-content-center">
+              <div class="col-9">
+                <div class="card card-primary">
+                  <div class="card-header">
+                    <h3 class="card-title"> হার্ডওয়্যার স্কিল </h3>
+                    <div class="card-tools">
+                      <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <label>হার্ডওয়্যার স্কিল এ আপনার দক্ষতা কেমন?</label>
+                    <!-- radio -->
                     <div class="form-group clearfix d-inline">
-                      
-                          <div class="icheck-primary d-inline mr-2" >
-                            <input type="radio" name="hardware" id="No" value="No" onclick="hardCheckNo()" required  >
-                            <label for="No">নেই</label>
-                          </div>
-
-                          <div class="icheck-primary d-inline mr-2" >
-                              <input type="radio" name="hardware" id="Basic" value="Basic" onclick="hardCheck()">
-                                <label for="Basic">বেসিক</label>
-                          </div>
-
-                          <div class="icheck-primary d-inline mr-2" >
-                            <input type="radio" name="hardware" id="Medium" value="Medium" onclick="hardCheck()">
-                                <label for="Medium">মধ্যম</label>
-                          </div>
-
-                          <div class="icheck-primary d-inline mr-2" >
-                           <input type="radio" name="hardware" id="Advanced" value="Advanced" onclick="hardCheck()">
-                                <label for="Advanced">অ্যাডভান্সড</label>
-                          </div>
-
-                         
-                     <div class="form-group">
+                      <div class="icheck-primary d-inline mr-2">
+                        <input type="radio" name="hardware" id="No" value="No" onclick="hardCheckNo()" required>
+                        <label for="No">নেই</label>
+                      </div>
+                      <div class="icheck-primary d-inline mr-2">
+                        <input type="radio" name="hardware" id="Basic" value="Basic" onclick="hardCheck()">
+                        <label for="Basic">বেসিক</label>
+                      </div>
+                      <div class="icheck-primary d-inline mr-2">
+                        <input type="radio" name="hardware" id="Medium" value="Medium" onclick="hardCheck()">
+                        <label for="Medium">মধ্যম</label>
+                      </div>
+                      <div class="icheck-primary d-inline mr-2">
+                        <input type="radio" name="hardware" id="Advanced" value="Advanced" onclick="hardCheck()">
+                        <label for="Advanced">অ্যাডভান্সড</label>
+                      </div>
+                      <div class="form-group">
                         <label for="hardware_topic">দক্ষতার বিষয় (কিছু থাকলে)</label>
                         <input type="text" id="hardware_topic" name="hardware_topic" class="form-control">
                       </div>
+                      <script>
+                        function hardCheckNo() {
+                          document.getElementById("hardware_topic").required = true;
+                        }
 
-                        <script>  
-                                 function hardCheckNo() {
-                                  document.getElementById("hardware_topic").required  = true;     
-                                  }
-                                  function hardCheck() {
-                                  document.getElementById("hardware_topic").required  = false;
-                                        }
-                        </script>
-
+                        function hardCheck() {
+                          document.getElementById("hardware_topic").required = false;
+                        }
+                      </script>
                     </div>
-                    </div>
+                  </div>
                 </div>
-            </div>
-            <!-- /.card-body -->
-          </div>
-          <!-- /.card -->   
-         <!-- ./হার্ডওয়্যার স্কিল বিবরণ  -->
-
-
-
-
-        <!-- অন্যান্য দক্ষতা  বিবরণ  -->
-
-      <div class="row justify-content-center">
-        <div class="col-9">
-          <div class="card card-primary">
-            <div class="card-header">
-              <h3 class="card-title"> অন্যান্য দক্ষতা </h3>
-
-              <div class="card-tools">
-                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                  <i class="fas fa-minus"></i>
-                </button>
               </div>
+              <!-- /.card-body -->
             </div>
-
-            <div class="card-body">
-                     <label>অন্যান্য দক্ষতা এ আপনার দক্ষতা কেমন?</label>
+            <!-- /.card -->
+            <!-- ./হার্ডওয়্যার স্কিল বিবরণ  -->
+            <!-- অন্যান্য দক্ষতা  বিবরণ  -->
+            <div class="row justify-content-center">
+              <div class="col-9">
+                <div class="card card-primary">
+                  <div class="card-header">
+                    <h3 class="card-title"> অন্যান্য দক্ষতা </h3>
+                    <div class="card-tools">
+                      <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <label>অন্যান্য দক্ষতা এ আপনার দক্ষতা কেমন?</label>
                     <!-- checkbox -->
                     <div class="form-group clearfix">
                       <div class="icheck-primary d-inline">
-                        <input type="checkbox" name="other_word" id="Yes" value="Yes" >
-                                    <label for="Yes">ওয়ার্ড</label>
+                        <input type="checkbox" name="other_word" id="Yes" value="Yes">
+                        <label for="Yes">ওয়ার্ড</label>
                       </div>
                       <div class="icheck-primary d-inline">
-                        <input type="checkbox" name="other_ppt" id="Yes" value="Yes" >
-                                    <label for="Yes">পাওয়ার পয়েন্ট</label>
+                        <input type="checkbox" name="other_ppt" id="Yes" value="Yes">
+                        <label for="Yes">পাওয়ার পয়েন্ট</label>
                       </div>
-
                       <div class="icheck-primary d-inline">
-                         <input type="checkbox" name="other_excel" id="Yes" value="Yes" >
-                                    <label for="Yes">এক্সেল</label>
+                        <input type="checkbox" name="other_excel" id="Yes" value="Yes">
+                        <label for="Yes">এক্সেল</label>
                       </div>
-
                       <div class="icheck-primary d-inline">
                         <input type="checkbox" name="other_internet" id="Yes" value="Yes">
-                                    <label for="Yes">বেসিক ইন্টারনেট</label>
-                      </div>                    
-                    </div>                  
+                        <label for="Yes">বেসিক ইন্টারনেট</label>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
+              <!-- /.card-body -->
             </div>
-            <!-- /.card-body -->
-          </div>
-          <!-- /.card -->   
-         <!-- ./অন্যান্য দক্ষতা বিবরণ  -->
-
-
-
-
-
-
-        <!-- row one -->
-
-      <div class="row justify-content-center">
-        <div class="col-9">
-          <div class="card card-primary">
-            <div class="card-header">
-              <h3 class="card-title">General</h3>
-
-              <div class="card-tools">
-                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                  <i class="fas fa-minus"></i>
-                </button>
+            <!-- /.card -->
+            <!-- ./অন্যান্য দক্ষতা বিবরণ  -->
+            <!-- row one -->
+            <div class="row justify-content-center">
+              <div class="col-9">
+                <div class="card card-primary">
+                  <div class="card-header">
+                    <h3 class="card-title">General</h3>
+                    <div class="card-tools">
+                      <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="form-group">
+                      <label for="offline">অফলাইন নাম্বার </label>
+                      <input type="text" id="offline" class="form-control" name="offline">
+                    </div>
+                    <div class="form-group">
+                      <label for="online">টেলিগ্রাম ইউজারনেম <sup>*</sup>: </label>
+                      <input type="text" id="online" name="online" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="online_whatsapp">অনলাইন নাম্বার (হোয়াটসঅ্যাপ) :</label>
+                      <input type="text" id="online_whatsapp" class="form-control" name="online_whatsapp">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">ইমেইল <sup>*</sup> : </label>
+                      <input type="text" id="email" name="email" class="form-control" required>
+                    </div>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
               </div>
             </div>
-            <div class="card-body">
-
-              <div class="form-group">
-                <label for="offline">অফলাইন নাম্বার </label> 
-                <input type="text" id="offline" class="form-control" name="offline" >
+            <!-- end row one -->
+            <!-- row one -->
+            <div class="row justify-content-center">
+              <div class="col-9">
+                <div class="card card-primary">
+                  <div class="card-header">
+                    <h3 class="card-title">General</h3>
+                    <div class="card-tools">
+                      <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="form-group">
+                      <label for="District">আপনার বাড়ি কোন জেলায়? </label>
+                      <input type="text" id="District" class="form-control" name="District" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="father_job">বাবার পেশা *</label>
+                      <input type="text" id="father_job" class="form-control" name="father_job" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="vai_bon">ভাই-বোনের সংখ্যা </label>
+                      <input type="text" id="vai_bon" class="form-control" name="vai_bon" required>
+                      <div class="form-group">
+                        <label for="tomo">আপনি কততম?</label>
+                        <input type="text" id="tomo" class="form-control" name="tomo" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="email">ইমেইল  </label>
+                        <input type="text" id="email" class="form-control" name="email" class="form-control" required>
+                      </div>
+                      <label>পরিবারের খরচ মেটাতে আপনার ওপর পরিবার নির্ভরশীল কি?:</label>
+                      <input type="radio" name="dependent" id="Yes" value="Yes" required>
+                      <label for="Yes">হ্যাঁ</label>
+                      <input type="radio" name="dependent" id="No" value="No">
+                      <label for="No">না</label>
+                      <h4 id="response_message"></h4>
+                      <button type="submit" class="btn btn-primary text-center" id="submit">সাবমিট করুন</button>
+                    </div>
+                    <!-- /.card-body -->
+                  </div>
+                  <!-- /.card -->
+                </div>
               </div>
-              <div class="form-group">
-                <label for="online">টেলিগ্রাম ইউজারনেম<sup>*</sup>:</label> 
-                <input type="text" id="online" name="online" class="form-control" required >
-              </div>
-              <div class="form-group">
-                <label for="online_whatsapp">অনলাইন নাম্বার (হোয়াটসঅ্যাপ) :</label> 
-                <input type="text" id="online_whatsapp" class="form-control" name="online_whatsapp" >
-              </div>
-              <div class="form-group">
-                <label for="email">ইমেইল<sup>*</sup> :</label> 
-                <input type="text" id="email" name="email" class="form-control" required   >
-              </div>
-
             </div>
-            <!-- /.card-body -->
-          </div>
-          <!-- /.card -->
-        </div>
-     
+            <!-- end row one -->
+          </form>
+        </section>
       </div>
-      <!-- end row one -->
-
-
-
-
-        <!-- row one -->
-
-      <div class="row justify-content-center">
-        <div class="col-9">
-          <div class="card card-primary">
-            <div class="card-header">
-              <h3 class="card-title">General</h3>
-
-              <div class="card-tools">
-                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                  <i class="fas fa-minus"></i>
-                </button>
-              </div>
-            </div>
-            <div class="card-body">
-
-              <div class="form-group">
-                <label for="District">আপনার বাড়ি কোন জেলায়?<sup>*</sup>:</label> 
-                <input type="text" id="District" class="form-control" name="District" required >
-              </div>
-              <div class="form-group">
-                 <label for="father_job">বাবার পেশা *</label> 
-                 <input type="text" id="father_job" class="form-control" name="father_job" required > 
-              </div>
-
-              <div class="form-group">
-                <br> <label for="vai_bon">ভাই-বোনের সংখ্যা<sup>*</sup>:</label> <input type="text" id="vai_bon" class="form-control" name="vai_bon" size="10 px" required >
-
-              <div class="form-group">
-                 <label for="tomo">আপনি কততম?<sup>*</sup> :</label> <input type="text" id="tomo" class="form-control" name="tomo" size="10 px" required  > <br>
-                        
-              </div>
-              <div class="form-group">
-                <label for="email">ইমেইল<sup>*</sup> :</label> 
-                <input type="text" id="email" class="form-control" name="email" class="form-control" required   >
-              </div>
-
-              <label>পরিবারের খরচ মেটাতে আপনার ওপর পরিবার নির্ভরশীল কি?:</label>
-              <input type="radio"  name="dependent" id="Yes" value="Yes"  required >
-                    <label for="Yes">হ্যাঁ</label>
-                    <input type="radio" name="dependent" id="No" value="No">
-                    <label for="No">না</label>
-
-                   <h4 id="response_message"></h4>
-                       <button type="submit" class="btn btn-primary"  id="submit"  >সাবমিট করুন</button>
-            </div>
-            <!-- /.card-body -->
-          </div>
-          <!-- /.card -->
-        </div>
-
-        </div>
-     
-      </div>
-      <!-- end row one -->
-
-
-
-
-
-      <div class="row mb-2">
-        <div class="col-12">
-          <a href="#" class="btn btn-secondary">Cancel</a>
-          <input type="submit" value="Create new Project" class="btn btn-success float-right">
-        </div>
-      </div>
-    </section>
-
-</div>
-</div>
-
-
-
-                    <script>
-                       function branchFn1() {
-                            var branch = document.getElementById('branch').value;
-                                          google.script.run       
-                                        .processForm(branch) 
-                        }
-                       function jelaFn1() {
-                            var jela1 = document.getElementById('jela1').value;
-                                          google.script.run       
-                                        .processForm(jela1) 
-                        }
-
-                        function jelaFn2() {
-                            var jela2 = document.getElementById('jela2').value;
-                                          google.script.run       
-                                        .processForm(jela2) 
-                        }
-                        function jelaFn3() {
-                            var jela3 = document.getElementById('jela3').value;
-                                          google.script.run       
-                                        .processForm(jela3) 
-                        }
-                        function jelaFn4() {
-                            var jela4 = document.getElementById('jela4').value;
-                                          google.script.run       
-                                        .processForm(jela4) 
-                        }
-                        function jelaFn5() {
-                            var jela5 = document.getElementById('jela5').value;
-                                          google.script.run       
-                                        .processForm(jela5) 
-                        }
-                        function jelaFn6() {
-                            var jela6 = document.getElementById('jela6').value;
-                                          google.script.run       
-                                        .processForm(jela6) 
-                        }
-                        function jelaFn7() {
-                            var jela7 = document.getElementById('jela7').value;
-                                          google.script.run       
-                                        .processForm(jela7) 
-                        }
-                        function jelaFn8() {
-                            var jela8 = document.getElementById('jela8').value;
-                                          google.script.run       
-                                        .processForm(jela8) 
-                        }
-                        function jelaFn9() {
-                            var jela9 = document.getElementById('jela9').value;
-                                          google.script.run       
-                                        .processForm(jela9) 
-                        }
-                        function jelaFn10() {
-                            var jela10 = document.getElementById('jela10').value;
-                                          google.script.run       
-                                        .processForm(jela10) 
-                        }
-                    </script> 
-
-
-<!-- jQuery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
-<!-- Bootstrap 4 -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-<!-- AdminLTE App -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/3.2.0/js/adminlte.min.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.14/js/bootstrap-select.js"></script>
-
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/2.1.27/daterangepicker.js" integrity="sha512-Ho3CQg00RtA6N5WnlJ1gdd3rQ1dMEvMIcENfLPFnpqSChEO1dzN6GBOyhf1oeHU1CTdWMtCjJsjOf+GkfoIojw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.0/moment.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.39.0/js/tempusdominus-bootstrap-4.min.js" integrity="sha512-k6/Bkb8Fxf/c1Tkyl39yJwcOZ1P4cRrJu77p83zJjN2Z55prbFHxPs9vN7q3l3+tSMGPDdoH51AEU8Vgo1cgAA==" crossorigin="anonymous"></script>
-
-
-<!-- Page specific script -->
-<script>
-  $(function () {
-    //Initialize Select2 Elements
-    $('.select2').select2()
-
-    //Initialize Select2 Elements
-    $('.select2bs4').select2({
-      theme: 'bootstrap4'
-    })
-
-    //Datemask dd/mm/yyyy
-    $('#datemask').inputmask('dd/mm/yyyy', { 'placeholder': 'dd/mm/yyyy' })
-    //Datemask2 mm/dd/yyyy
-    $('#datemask2').inputmask('mm/dd/yyyy', { 'placeholder': 'mm/dd/yyyy' })
-    //Money Euro
-    $('[data-mask]').inputmask()
-
-    //Date picker
-    $('#reservationdate').datetimepicker({
-        format: 'L'
-    });
-
-    //Date and time picker
-    $('#reservationdatetime').datetimepicker({ icons: { time: 'far fa-clock' } });
-
-    //Date range picker
-    $('#reservation').daterangepicker()
-    //Date range picker with time picker
-    $('#reservationtime').daterangepicker({
-      timePicker: true,
-      timePickerIncrement: 30,
-      locale: {
-        format: 'MM/DD/YYYY hh:mm A'
+    </div>
+    <script>
+      function branch() {
+        var branch = document.getElementById('branch').value;
+        google.script.run.processForm(branch)
       }
-    })
-    //Date range as a button
-    $('#daterange-btn').daterangepicker(
-      {
-        ranges   : {
-          'Today'       : [moment(), moment()],
-          'Yesterday'   : [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
-          'Last 7 Days' : [moment().subtract(6, 'days'), moment()],
-          'Last 30 Days': [moment().subtract(29, 'days'), moment()],
-          'This Month'  : [moment().startOf('month'), moment().endOf('month')],
-          'Last Month'  : [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
-        },
-        startDate: moment().subtract(29, 'days'),
-        endDate  : moment()
-      },
-      function (start, end) {
-        $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'))
+
+      function shakhaTeam() {
+        var carrerArea = document.getElementById('carrerArea').value;
+        google.script.run.processForm(carrerArea)
       }
-    )
-
-    //Timepicker
-    $('#timepicker').datetimepicker({
-      format: 'LT'
-    })
-
-    //Bootstrap Duallistbox
-    $('.duallistbox').bootstrapDualListbox()
-
-    //Colorpicker
-    $('.my-colorpicker1').colorpicker()
-    //color picker with addon
-    $('.my-colorpicker2').colorpicker()
-
-    $('.my-colorpicker2').on('colorpickerChange', function(event) {
-      $('.my-colorpicker2 .fa-square').css('color', event.color.toString());
-    })
-
-    $("input[data-bootstrap-switch]").each(function(){
-      $(this).bootstrapSwitch('state', $(this).prop('checked'));
-    })
-
-  })
-  // BS-Stepper Init
-  document.addEventListener('DOMContentLoaded', function () {
-    window.stepper = new Stepper(document.querySelector('.bs-stepper'))
-  })
-
-  // DropzoneJS Demo Code Start
-  Dropzone.autoDiscover = false
-
-  // Get the template HTML and remove it from the doumenthe template HTML and remove it from the doument
-  var previewNode = document.querySelector("#template")
-  previewNode.id = ""
-  var previewTemplate = previewNode.parentNode.innerHTML
-  previewNode.parentNode.removeChild(previewNode)
-
-  var myDropzone = new Dropzone(document.body, { // Make the whole body a dropzone
-    url: "/target-url", // Set the url
-    thumbnailWidth: 80,
-    thumbnailHeight: 80,
-    parallelUploads: 20,
-    previewTemplate: previewTemplate,
-    autoQueue: false, // Make sure the files aren't queued until manually added
-    previewsContainer: "#previews", // Define the container to display the previews
-    clickable: ".fileinput-button" // Define the element that should be used as click trigger to select files.
-  })
-
-  myDropzone.on("addedfile", function(file) {
-    // Hookup the start button
-    file.previewElement.querySelector(".start").onclick = function() { myDropzone.enqueueFile(file) }
-  })
-
-  // Update the total progress bar
-  myDropzone.on("totaluploadprogress", function(progress) {
-    document.querySelector("#total-progress .progress-bar").style.width = progress + "%"
-  })
-
-  myDropzone.on("sending", function(file) {
-    // Show the total progress bar when upload starts
-    document.querySelector("#total-progress").style.opacity = "1"
-    // And disable the start button
-    file.previewElement.querySelector(".start").setAttribute("disabled", "disabled")
-  })
-
-  // Hide the total progress bar when nothing's uploading anymore
-  myDropzone.on("queuecomplete", function(progress) {
-    document.querySelector("#total-progress").style.opacity = "0"
-  })
-
-  // Setup the buttons for all transfers
-  // The "add files" button doesn't need to be setup because the config
-  // `clickable` has already been specified.
-  document.querySelector("#actions .start").onclick = function() {
-    myDropzone.enqueueFiles(myDropzone.getFilesWithStatus(Dropzone.ADDED))
-  }
-  document.querySelector("#actions .cancel").onclick = function() {
-    myDropzone.removeAllFiles(true)
-  }
-  // DropzoneJS Demo Code End
-</script>
-
-</body>
+    </script>
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/3.2.0/js/adminlte.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.14/js/bootstrap-select.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/2.1.27/daterangepicker.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.39.0/js/tempusdominus-bootstrap-4.min.js"></script>
+  </body>
 </html>
